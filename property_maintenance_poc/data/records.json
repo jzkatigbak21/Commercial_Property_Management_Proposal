@@ -1,0 +1,29 @@
+{
+  "tenants": [
+    {
+      "tenant_id": "tenant-001",
+      "name": "Alex Morgan",
+      "email": "tenant1@example.com",
+      "property_id": "prop-001",
+      "unit": "101",
+      "lease_id": "lease-001"
+    }
+  ],
+  "leases": [
+    {
+      "lease_id": "lease-001",
+      "clauses": [
+        {
+          "clause_id": "clause-plumbing",
+          "type": "plumbing",
+          "text": "The landlord is responsible for building plumbing systems unless damage was caused by tenant misuse."
+        },
+        {
+          "clause_id": "clause-damage",
+          "type": "tenant_damage",
+          "text": "The tenant is responsible for damage caused by negligence or misuse."
+        }
+      ]
+    }
+  ]
+}

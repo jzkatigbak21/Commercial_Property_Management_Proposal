@@ -1,0 +1,25 @@
+[
+  {
+    "review_id": "review-0001",
+    "run_id": "run-0001",
+    "status": "open",
+    "payload": {
+      "message_id": "3",
+      "from": "unknown@example.com",
+      "subject": "Issue",
+      "body": "Please help"
+    },
+    "assessment": {
+      "issue_type": "general_maintenance",
+      "severity": "normal",
+      "recommended_responsibility": "undetermined",
+      "confidence": 0.25,
+      "evidence": [],
+      "missing_information": [
+        "tenant match",
+        "lease"
+      ],
+      "status": "manual_review"
+    }
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "message_id": "graph-msg-1001",
+  "from": "tenant1@example.com",
+  "subject": "Water leaking under kitchen sink",
+  "body": "Water is leaking under the kitchen sink and getting worse."
+}
